@@ -9,6 +9,7 @@
 <body>
     <h1>HELLO WORLD!</h1>
     <h2>my name is {{$name}} {{$lastname}}, and i'm {{$age}}</h2>
+    
     <div>
         My principal hobbies are: 
         <ul>
@@ -17,5 +18,7 @@
             @endforeach
         </ul>        
     </div>
+
+    <div><a href="{{route('motorcycle')}}">This is my actual bike</a></div>
 </body>
 </html>

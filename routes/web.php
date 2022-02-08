@@ -31,3 +31,7 @@ Route::get('/', function () {
     return view('home', $data);
 })->name('homepage');
 
+Route::get('/motorcycle', function () {
+    return view('motorcycle');
+})->name('motorcycle');
+
